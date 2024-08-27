@@ -211,5 +211,5 @@ if __name__ == "__main__":
     parser.add_argument("--agg_user", type=int, default=10, help="number of celebrities to be aggregated together as a device/client (as meta-batch size).")
     parser.add_argument("--ratio", type=float, default=250, help="Number of total celebrities to be sampled for FL training.")
     args = parser.parse_args()
-    print("Number of FL devices: {}".format(args.ratio // args.agg_user ))
+    print("Number xspdashuaige: {}".format(args.ratio // args.agg_user ))
     process_data()
